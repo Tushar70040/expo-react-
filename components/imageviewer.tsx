@@ -7,7 +7,8 @@ type Props ={
 }
 
 export default function ImageViewer({imgSource,image}:Props){
-    //if the the images is avaiable use uri if not then imgsource
+    //if the the images is avaiable use uri 
+    // if not then imgsource
     //data we get the form screen.tsx
 const src = image ? {uri:image}:imgSource;
 
@@ -18,8 +19,8 @@ const src = image ? {uri:image}:imgSource;
 
 const styles = StyleSheet.create({
        image:{
-        width:320,
-        height:440,
+        width:240,
+        height:370,
         margin:30,
         borderRadius:18
     },
